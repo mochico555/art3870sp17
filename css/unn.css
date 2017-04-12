@@ -21,7 +21,7 @@ img{
 
 h2,h3,h4,h5 {
   font-family: 'Anton', sans-serif;
-  text-transform: uppercase;
+
 
 }
 
@@ -48,12 +48,17 @@ h2{
 h3{
   text-align: center;
 }
+h4{
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
 h5{
-  color: red;
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: black;
 }
 h6{
   font-family: 'PT Sans Narrow', sans-serif;
-  text-align: center;
+  text-align: left;
 }
 li{
   line-height: 20px;
@@ -78,7 +83,7 @@ nav ul{
 
 nav ul li{
   display: inline;
-  font-family: 'Overlock', cursive;
+  font-family: 'Anton', sans-serif;
   text-transform: uppercase;
   margin-left: 10px;
 
@@ -89,8 +94,8 @@ nav a:link, nav a:visited{
 }
 
 a{
-  color: white;
-  font-family: 'Overlock';
+  color: black;
+  font-family: 'Anton' sans-serif;
 }
 
 button {
@@ -122,7 +127,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: grey;
+    background-color: darkgrey;
 }
 
 li.dropdown {
@@ -134,7 +139,7 @@ li.dropdown {
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,1);
     z-index: 1;
 }
 
@@ -146,7 +151,7 @@ li.dropdown {
     text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {background-color: lightgrey}
 
 .dropdown:hover .dropdown-content {
     display: block;
